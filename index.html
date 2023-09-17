@@ -6,26 +6,26 @@
     <link rel="stylesheet" href="index.css">
     <title>Pay Gap Calculator</title>
 </head>
-<body>
+<body style="background-color:rgb(186, 206, 216);">
     <div class="box">
-    <div class="input-container">
-        <label for="gender" >Gender</label>
-        <input type="text" id="gender" name="gender">
+        <div class="input-container">
+            <label for="gender">Gender</label>
+            <div class="BoxAlign"><input type="text" id="gender" name="gender"></div>
+        </div>
+        <div class="input-container">
+            <label for="education" >Education</label>
+            <div class="BoxAlign"><input type="text" id="education" name="education"></div>
+        </div>
+        <div class="input-container">
+            <label for="experience" >Years of Experience</label>
+            <div class="BoxAlign"><input type="text" id="experience" name="experience"></div>
+        </div>
+        <div class="input-container">
+            <label for="age" >Age</label>
+            <div class="BoxAlign"><input type="text" id="age" name="age"></div>
+        </div>
     </div>
-    <div class="input-container">
-        <label for="education" >Education</label>
-        <input type="text" id="education" name="education">
-    </div>
-     <div class="input-container">
-        <label for="experience" >Years of Experience</label>
-        <input type="text" id="experience" name="experience">
-     </div>
-    <div class="input-container">
-        <label for="age" >Age</label>
-        <input type="text" id="age" name="age">
-    </div>
-    </div>
-    <button id="getData">Calculate</button>
+    <button class="Button" id="getData">Calculate</button>
     <script src="script.js"></script>
 </body>
 </html>
